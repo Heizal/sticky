@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mynerve&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar ul{
+    list-style: none;
+    display: inline;
+    font-family: Montserrat;
+    font-size: 20px;   
+    font-weight: 600; 
+}
+
+.navbar li{
+    display: inline; 
+    padding: 20px 50px 0px 60px;
+    margin: 0;
+    float: right;
+    cursor: pointer;    
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: bisque;
+}
+
+/* Navbar media queries */
+/* Phones */
+@media only screen and (max-width: 600px){
+    .navbar ul{
+        display: block;
+        padding-right: 10px;
+        font-weight: 400;
+    }
+
+    .navbar li{
+        cursor: pointer;
+    }
+}
+/* Tablets */
+@media only screen and (min-width: 768px){
+    /* .navbar ul{
+        font-size: 25px;
+    } */
+
+    .navbar li{
+        cursor: pointer;
+        padding-top: 50px;
+        font-size: 25px;
+
+    }
+}
+
+/* Larger screens - laptops */
+@media only screen and (min-width: 992px){
+    .navbar li{
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+
+/* Hero text */
+.hero-text{
+    padding: 50px 50px 0px;
+    text-align: center;
+}
+
+.main-heading{
+    font-family: Mynerve;
+    font-size: 100px;
+    margin: 10px;
+}
+
+.main-subtext{
+    font-family: Montserrat; 
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.main-paragraph{
+    font-family: Montserrat; 
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+/* Hero text media queries */
+
+@media only screen and (max-width: 600px){
+    .main-heading{
+        font-size: 80px;
+    } 
+
+    .main-subtext{
+        margin: 0;
+    }
+
+}
+/* For tablets */
+@media only screen and (min-width: 768px){
+    .hero-text{
+        margin-top: 50px;
+    }
+
+    .main-heading{
+        font-size: 200px;
+    }
+
+    .main-subtext{
+        font-size: 70px;
+        margin: 0;
+    }
+
+    .main-paragraph{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .main-heading{
+        font-size: 150px;
+    }
+
+    .main-subtext{
+        font-size: 50px;
+    }
+
+    .main-paragraph{
+        font-size: 28px;
+    }
+}
+
+/* Hero button */
+
+.hero-button{
+    text-align: center;   
+}
+
+.main-button{
+    font-family: Mynerve;
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+/* media queries for button */
+/* Phone */
+@media only screen and (max-width: 600px){
+    .main-button{
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .main-button{
+        font-size: 50px;
+        cursor: pointer;
+        height: 200px;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .main-button{
+        font-size: 40px;
+        cursor: pointer;
+        height: 100px;
+        width: 310px;
+    }
+}
+

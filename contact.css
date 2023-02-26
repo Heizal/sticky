@@ -1,0 +1,276 @@
+/* come back and work on page responsiveness */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mynerve&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.contact-navbar ul{
+    list-style: none;
+    display: inline;
+    font-family: Montserrat;
+    font-size: 20px;   
+    font-weight: 600; 
+}
+
+.contact-navbar li{
+    display: inline; 
+    padding: 20px 50px 0px 60px;
+    margin: 0;
+    float: right;
+    cursor: pointer;    
+}
+
+.contact-navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-navbar a:hover{
+    color: bisque;
+}
+
+/* Navbar media queries */
+/* Phones */
+@media only screen and (max-width: 600px){
+    .contact-navbar ul{
+        display: block;
+        padding-right: 10px;
+        font-weight: 400;
+    }
+
+    .contact-navbar li{
+        cursor: pointer;
+    }
+}
+/* Tablets */
+@media only screen and (min-width: 768px){
+    /* .navbar ul{
+        font-size: 25px;
+    } */
+
+    .contact-navbar li{
+        cursor: pointer;
+        padding-top: 50px;
+        font-size: 25px;
+
+    }
+}
+
+/* Larger screens - laptops */
+@media only screen and (min-width: 992px){
+    .contact-navbar li{
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+
+img{
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    padding-top: 150px;
+    padding-left: 60px;
+}
+
+/* media queries - image */
+/* Phones */
+@media only screen and (max-width: 600px){
+    img{
+        height: 200px;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;       
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px){
+    img{
+        padding: 50px 0px 0px 70px;
+        height: 420px;
+    }
+}
+
+/* the fucking surface pro */
+@media only screen and (min-width: 912px){
+    img{
+        padding: 60px 0px 0px 130px;
+        height: 450px;
+    }
+
+}
+
+/* fucking surfaces
+@media only screen and (max-width: 540px){
+    img{
+        height: 300px;
+    }
+
+} */
+
+@media only screen and (min-width: 1024px){
+    img{
+        height: 500px;
+        padding-left: 150px;
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    img{
+        height: 400px;
+
+    }
+}
+
+
+
+/* Contact content */
+.contact-info{
+    float: right;
+    bottom: 30px;
+    position: relative;
+    padding-right: 30px;
+
+}
+
+.contact-heading{
+    font-family: Mynerve;
+    font-size: 50px;
+    margin: 0;  
+}
+
+.contact-subtext{
+    font-family: Montserrat; 
+    font-size: 30px;
+}
+
+.contact-paragragh{
+    font-family: Montserrat; 
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 1200px){
+    .contact-info{
+        bottom: 400px;    
+    }
+    
+    .contact-heading{
+        font-family: Mynerve;
+        font-size: 50px;
+        margin: 0;  
+    }
+    
+    .contact-subtext{
+        font-family: Montserrat; 
+        font-size: 30px;
+    }
+    
+    .contact-paragragh{
+        font-family: Montserrat; 
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+}
+
+/* @media only screen and (min-width: 1200px){
+    .contact-info{
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .contact-info{
+        top: 50px;
+        text-align: center;
+    }
+
+    .contact-subtext{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .contact-info{
+        top: 50px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .contact-heading{
+        font-size: 60px;
+    }
+} */
+
+/* the fucking surface pro */
+/* @media only screen and (min-width: 912px){
+    .contact-info{
+        top: 50px;
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    .contact-heading{
+        font-size: 80px;
+    }
+
+    .contact-subtext{
+        font-size: 35px;
+    }
+
+    .contact-paragragh{
+        font-size: 30px;
+    }
+
+} */
+
+/* @media only screen and (min-width: 1024px){
+    .contact-info{
+        padding-right: 150px;
+    }
+
+    .contact-heading{
+        font-size: 60px;
+    }
+
+    .contact-subtext{
+        font-size: 30px;
+    }
+
+    .contact-paragragh{
+        font-size: 25px;
+    }
+} */
+
+
+/* Button */
+.contact-button{
+    font-family: Mynerve;
+    height: 80px;
+    width: 180px;
+    background-color: bisque;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-button a{
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px){
+    .contact-button{
+        height: 100px;
+        width: 250px;
+        font-size: 30px;
+    }
+}
