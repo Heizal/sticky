@@ -179,75 +179,51 @@ img{
     
 }
 
-/* @media only screen and (min-width: 1200px){
+@media only screen and (max-width: 1024px){
     .contact-info{
-        text-align: justify;
+        top: 20px;
+        margin-right: 150px;
+        text-align: center;
     }
 
 }
 
 @media only screen and (max-width: 600px){
     .contact-info{
-        top: 50px;
+        top: 20px;
         text-align: center;
     }
 
     .contact-subtext{
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .contact-paragragh{
+        font-size: 15px;
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
     .contact-info{
-        top: 50px;
+        top: 20px;
         text-align: center;
-        margin-right: 50px;
+        margin-right: 100px;
     }
 
-    .contact-heading{
-        font-size: 60px;
-    }
-} */
+}
 
-/* the fucking surface pro */
-/* @media only screen and (min-width: 912px){
+@media only screen and (max-width: 1280px){
     .contact-info{
-        top: 50px;
         text-align: center;
-        padding-right: 50px;
-    }
-
-    .contact-heading{
-        font-size: 80px;
     }
 
     .contact-subtext{
-        font-size: 35px;
+        font-size: 22px;
     }
 
-    .contact-paragragh{
-        font-size: 30px;
-    }
+}
 
-} */
 
-/* @media only screen and (min-width: 1024px){
-    .contact-info{
-        padding-right: 150px;
-    }
-
-    .contact-heading{
-        font-size: 60px;
-    }
-
-    .contact-subtext{
-        font-size: 30px;
-    }
-
-    .contact-paragragh{
-        font-size: 25px;
-    }
-} */
 
 
 /* Button */
